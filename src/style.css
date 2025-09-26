@@ -7,6 +7,7 @@ body {
   font-family: Arial, sans-serif;
   text-align: center;
   padding: 50px;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 button {
@@ -58,7 +59,7 @@ button {
 
 /* When checked */
 input:checked + .slider {
-  background-color: #2196F3;
+  background-color: #f1c40f; /* gold/yellow for dark mode */
 }
 
 input:checked + .slider:before {
