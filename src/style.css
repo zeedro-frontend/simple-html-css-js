@@ -1,8 +1,12 @@
+
+
+/* Default: Light Mode */
 body {
+  background-color: white;
+  color: black;
   font-family: Arial, sans-serif;
   text-align: center;
   padding: 50px;
-  background-color: #f0f0f0;
 }
 
 button {
@@ -10,3 +14,10 @@ button {
   font-size: 16px;
   cursor: pointer;
 }
+
+/* Dark Mode */
+body.dark-mode {
+  background-color: #121212;
+  color: white;
+}
+
