@@ -2,9 +2,9 @@ document.getElementById('clickMe').addEventListener('click', () => {
   alert('Button was clicked!');
 });
 
-const toggleButton = document.getElementById("theme-toggle");
+const toggleSwitch = document.getElementById("theme-toggle");
 const body = document.body;
 
-toggleButton.addEventListener("click", () => {
-  body.classList.toggle("dark-mode");
+toggleSwitch.addEventListener("change", () => {
+  body.classList.toggle("dark-mode", toggleSwitch.checked);
 });
